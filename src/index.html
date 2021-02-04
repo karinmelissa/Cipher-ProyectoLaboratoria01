@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mensaje Secreto</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <section class="principal" id="principal">
+                <div class="placer">
+                    <header class="top">
+                        <h1>Bienvenida</h1>
+
+                    </header>
+                    <label class="random">Cifrado random</label><br>
+                    <input class="number" id="desplazamiento" type="number" min="-25" max="25"><br>
+					<textarea class="txt" type="text" name="texto" id="texto" placeholder="Escribe aqui tu mensaje secreto..."></textarea><br>
+                    <button class="boton" id="click">Cifrar codigo</button>
+                </div>
+            </section>
+            <section class="final" id="final">
+                <div class="placer">
+                    <h1>Este es tu mensaje secreto</h1>
+                    <textarea type="text" name="cifrado" id="cifrado" class="txt"></textarea>
+                    <a class="boton" href="/">Cifrar otro codigo</a>
+                </div>
+            </section>
+        </div>
+        <script type="module" src="index.js"></script>
+    </body>
+</html>
