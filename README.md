@@ -8,6 +8,8 @@ Alfabeto sin cifrar: ABCDEFGHIJKLMNOPQRSTUVWXYZ
 Alfabeto cifrado: HIJKLMNOPQRSTUVWXYZABCDEFG
 Este método debe su nombre a Julio César, que lo usaba para comunicarse con sus generales.
 
+
+
 Informacion para usuarios:
 
 -¿Que es SecretMessage?
