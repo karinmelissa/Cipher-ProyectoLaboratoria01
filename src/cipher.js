@@ -25,7 +25,6 @@ const cipher = {
         txt += string[i];
       }
     }
-    console.log(txt);
     return txt;
   }
 }

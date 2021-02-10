@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -14,22 +13,17 @@
         <div class="container">
             <section class="principal" id="principal">
                 <div class="placer">
-                    <header class="top">
+                    <header class="header">
                         <i class="fas fa-user-secret"></i> 
                         <h1>Anonimo</h1>
-                        <i class="far fa-eye-slash"></i>
-
+                        <button><i class="far fa-eye-slash" id="eye-show"></i></button>
+                        <i class="fas fa-info-circle"></i>
                     </header>
+                    <div class="box sb1">I'm speech bubble</div>
+                    <div id="burbuja" class="burbuja"><div class="box2 sb2" id="cifrado" contenteditable></div></div>
                     <input class="number" id="desplazamiento" type="number" min="-25" max="25" placeholder="nº"><br>
 					<textarea class="txt" type="text" name="texto" id="texto" placeholder="Escribe aqui tu mensaje secreto..."></textarea><br>
                     <button class="boton" id="click"><i class="fas fa-paper-plane"></i></button>
-                </div>
-            </section>
-            <section class="final" id="final">
-                <div class="placer">
-                    <h1>Este es tu mensaje secreto</h1>
-                    <textarea type="text" name="cifrado" id="cifrado" class="txt"></textarea>
-                    <a class="boton" href="/">Cifrar otro codigo</a>
                 </div>
             </section>
         </div>
