@@ -26,4 +26,4 @@ Los elementos de la interfaz como una paleta de colores oscura,  la tipografia '
 
 
 ![Prototipo en Figma]
-(https://raw.githubusercontent.com/karinmelissa/Cipher-ProyectoLaboratoria01/blob/master/images/Plantila-1.png)
+(https://github.com/karinmelissa/Cipher-ProyectoLaboratoria01/blob/master/images/Plantila-1.png?raw=true)
