@@ -16,11 +16,20 @@
                     <header class="header">
                         <i class="fas fa-user-secret"></i> 
                         <h1>Anonimo</h1>
-                        <button><i class="far fa-eye-slash" id="eye-show"></i></button>
-                        <i class="fas fa-info-circle"></i>
+                        <button class="hidde-button"><i class="far fa-eye-slash" id="eye-show"></i></button>
+                        <button class="hidde-button"><i class="fas fa-info-circle" id="info-show"></i></button>
+                        <div class="informacion" id="informacion">
+                            <h2 class="info-title">Informaciones <button class="hidde-button" id="info-out"><i class="far fa-times-circle"></i></button></h2>
+                            <p>-¿Que es SecretMessage?</p>
+                            <p>SecretMessage es un sistema de mensajeria interna con el cual puedes enviar mensajes secretos a tus amigos. ¡Solo ustedes de entenderan!</p>
+                            <p>-¿Como se utiliza?</p>
+                            <p>Luego de escribir el mensaje que quieras enviar, debes selecionar un nº secreto el cual seleccionara el tipo de encriptamiento, luego de esto solo envialo y ¡Listo! tu contacto recibira tu mensaje secreto.
+                                Para poder desencritar los mensajes enviados, solo debes hacer mantener presionado el icono </p>
+                            <p>PD: SecretMessage es una aplicacion para diversion, no debe ser utilizado para hacer el mal!</p>  
+                        </div>
                     </header>
-                    <div class="box sb1">I'm speech bubble</div>
-                    <div id="burbuja" class="burbuja"><div class="box2 sb2" id="cifrado" contenteditable></div></div>
+                    <div class="box sb1" id="saludo" value="Krod frpr hvwdv?">Krod frpr hvwdv?</div>
+                    <div id="burbuja" class="burbuja"><div class="box2 sb2" id="cifrado" contenteditable="false"></div></div>
                     <input class="number" id="desplazamiento" type="number" min="-25" max="25" placeholder="nº"><br>
 					<textarea class="txt" type="text" name="texto" id="texto" placeholder="Escribe aqui tu mensaje secreto..."></textarea><br>
                     <button class="boton" id="click"><i class="fas fa-paper-plane"></i></button>

@@ -57,6 +57,13 @@ h1{
     color: #FAFAFA;
     
 }
+.hidde-button,
+.hidde-button:active{
+    background: none;
+    border: none;
+    color: none;
+}
+
 .fa-eye-slash{
     position: absolute;
     left: 38%;
@@ -69,6 +76,39 @@ h1{
     position: absolute;
     left: 380px;
     top: 20px;
+}
+.fa-eye-slash:hover,
+.fa-info-circle:hover,
+.boton:hover,
+.fa-times-circle:hover{
+    cursor:pointer;
+}
+.informacion{
+    display: none;
+    position: absolute;
+    color: #265385;
+    font-size: 13px;
+    padding: 10px;
+    width: 600px;
+    height: 330px;
+    left: -85px;
+    top: 80px;
+    z-index: 1;
+    background: #0D0D0D;
+    border: 2px solid #C4C4C4;
+    box-sizing: border-box;
+    text-align: left;
+}
+.info-title{
+    font-size: 16px;
+    justify-content: space-between;
+}
+.fa-times-circle{
+    position: absolute;
+    left: 550px;
+    top: 20px;
+    font-size: 20px;
+    color: #265385;
 }
 .box{
     color: #265385;
