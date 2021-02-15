@@ -1,0 +1,30 @@
+{
+  "name": "cipher",
+  "version": "1.0.0",
+  "description": "cipher",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karinmelissa/Cipher-ProyectoLaboratoria01.git"
+  },
+  "keywords": [
+    "cipher",
+    "laboratoria",
+    "cifrado"
+  ],
+  "author": "Karin Escobar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/karinmelissa/Cipher-ProyectoLaboratoria01/issues"
+  },
+  "homepage": "https://github.com/karinmelissa/Cipher-ProyectoLaboratoria01#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
