@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap');
+*{
+    font-family: 'Roboto Mono', monospace;
+}
+.container{
+    margin: 0px auto;
+    padding: 10%;
+    background-image: url("../images/Fondo.png");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 410px;
+}
+
+.placer{
+    margin: 0px auto;
+    background-color: rgb(149, 145, 157,80%);
+    border: 1px solid white;
+    border-radius: 10px;
+    text-align: center;
+    height: 363px;
+    position: absolute;
+    width: 418px;
+    height: 603px;
+    left: 452px;
+    top: 30px;
+}
+
+.header{
+    position: absolute;
+    width: 418px;
+    height: 60px;
+    left: 452px;
+    top: 124px;
+    background: rgba(149, 145, 157, 0.7);
+    border-radius: 10px 10px 0px 0px;
+    top: auto;
+    left: auto;
+}
+
+.fa-user-secret{
+    position: absolute;
+    font-size: 35px;
+    left: 15px;
+    top: 15px;
+    bottom: 82.6%;
+}
+
+h1{
+    position: absolute;
+    left: 55px;
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 29px;
+    text-align: center;
+    color: #FAFAFA;
+    
+}
+.hidde-button,
+.hidde-button:active{
+    background: none;
+    border: none;
+    color: none;
+}
+
+.fa-eye-slash{
+    position: absolute;
+    left: 38%;
+    top: 25px;
+    color: #FAFAFA;
+}
+.fa-info-circle{
+    font-size: 20px;
+    color: #265385;
+    position: absolute;
+    left: 380px;
+    top: 20px;
+}
+.fa-eye-slash:hover,
+.fa-info-circle:hover,
+.boton:hover,
+.fa-times-circle:hover{
+    cursor:pointer;
+}
+.informacion{
+    display: none;
+    position: absolute;
+    color: #265385;
+    font-size: 13px;
+    padding: 10px;
+    width: 600px;
+    height: 330px;
+    left: -85px;
+    top: 80px;
+    z-index: 1;
+    background: #0D0D0D;
+    border: 2px solid #C4C4C4;
+    box-sizing: border-box;
+    text-align: left;
+}
+.info-title{
+    font-size: 16px;
+    justify-content: space-between;
+}
+.fa-times-circle{
+    position: absolute;
+    left: 550px;
+    top: 20px;
+    font-size: 20px;
+    color: #265385;
+}
+.box{
+    color: #265385;
+    position: absolute;
+    left: 20px;
+    top: 70px;
+    padding: 10px;
+    text-align: start;
+    background: #C4C4C4;
+    border-radius: 10px;
+}
+.sb1:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid #C4C4C4;
+    border-top: 10px solid #C4C4C4;
+    border-bottom: 10px solid transparent;
+    left: -15px;
+}
+.burbuja{
+    display: none;
+}
+.box2{
+    color: #265385;
+    position: absolute;
+    left: 215px;
+    top: 120px;
+    padding: 10px;
+    text-align: start;
+    background: #C4C4C4;
+    border-radius: 10px;
+    width: 160px;
+}
+.sb2:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 10px solid #C4C4C4;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #C4C4C4;
+    border-bottom: 10px solid transparent;
+    left: 175px;
+}
+
+.txt{
+    text-align: end;
+    resize: none;
+    box-sizing: border-box;
+    position: absolute;
+    width: 310px;
+    height: 80px;
+    right: 90px;
+    top: 500px;
+    background: #000000;
+    color: #265385;
+    border: 0.5px solid #C4C4C4;
+}
+.txt::placeholder,
+.number::placeholder{
+    color: #265385;
+
+}
+.number{
+    position: absolute;
+    color: #265385;
+    width: 53px;
+    height: 27px;
+    left: 350px;
+    top: 500px;
+    background: #000000;
+    border: 0.5px solid #C4C4C4;
+    box-sizing: border-box;
+}
+.boton{
+    color: white;
+    background-color: rgb(22, 45, 61,90%);
+    border-radius: 20px;
+    border: none;
+    text-decoration: none;
+    font-size:medium;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 350px;
+    top: 535px;
+    text-align: center;
+}
+.fa-paper-plane{
+    font-size: 20px;
+}
